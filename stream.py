@@ -4,7 +4,9 @@ import subprocess
 import time
 
 # نیچے کوٹیشن مارکس کے اندر اپنی 30 سے 40 ویڈیوز والی پلے لسٹ کا لنک پیسٹ کریں
-PLAYLIST_URL = "https://www.youtube.com/watch?v=dc5bEPnBZEk&list=PLinVjP-aRmlsfgXN264NXF2BaBslOO_B-"
+PLAYLIST_URL = "https://www.youtube.com/watch?v=UMe1AKUyUN0"
+
+"
 
 print("Fetching playlist entries...")
 cmd = ["yt-dlp", "--flat-playlist", "-J", PLAYLIST_URL]
